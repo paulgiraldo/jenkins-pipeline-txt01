@@ -9,7 +9,7 @@ pipeline {
         stage('Clonar repositorio...') {
             steps {
                 echo 'Clonando mi repositorio'
-                git branch: 'develop', url: 'https://github.com/fercdev/jenkins-pipeline-txt.git'
+                git branch: 'develop', url: 'https://github.com/paulgiraldo/jenkins-pipeline-txt01.git'
             }
         }
 
